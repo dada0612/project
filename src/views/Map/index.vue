@@ -1,10 +1,14 @@
 <template>
-  <div>123</div>
+  <div>
+    <Table></Table>
+  </div>
 </template>
 
 <script>
+import Table from "./components/table";
 export default {
-  name: "Map"
+  name: "Map",
+  components: { Table }
 };
 </script>
 
